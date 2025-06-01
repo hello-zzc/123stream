@@ -1,4 +1,4 @@
-﻿absl-py==2.1.0
+absl-py==2.1.0
 aiohttp==3.9.5
 aiosignal==1.3.1
 aiosqlite==0.20.0
@@ -12,7 +12,7 @@ astor==0.8.1
 asttokens==2.4.1
 astunparse==1.6.3
 async-lru==2.0.4
-asyncio==3.4.3
+# 移除 asyncio (Python内置，不应单独安装)
 attrs==23.2.0
 Babel==2.15.0
 backoff==2.2.1
@@ -46,7 +46,7 @@ datasets==3.5.0
 DBUtils==3.1.0
 debugpy==1.8.1
 decorator==5.1.1
-deepmerge==2.0
+deepmerge==1.1.1
 defusedxml==0.7.1
 Deprecated==1.2.18
 dill==0.3.4
@@ -84,7 +84,8 @@ httpx==0.27.0
 huggingface-hub==0.30.2
 humanfriendly==10.0
 idna==3.7
-imblearn==0.0
+# 移除 imblearn (应该安装 imbalanced-learn)
+imbalanced-learn==0.12.3
 importlib_metadata==7.2.1
 importlib_resources==6.5.2
 ipykernel==6.29.4
@@ -106,8 +107,8 @@ jupyter==1.1.1
 jupyter-console==6.6.3
 jupyter-events==0.10.0
 jupyter-lsp==2.2.5
-jupyter_ai==2.31.4
-jupyter_ai_magics==2.31.4
+jupyter_ai==2.18.1
+jupyter_ai_magics==2.18.1
 jupyter_client==8.6.2
 jupyter_core==5.7.2
 jupyter_server==2.14.1
@@ -218,7 +219,7 @@ python-docx==1.1.2
 python-dotenv==1.1.0
 python-json-logger==2.0.7
 pytz==2024.1
-
+pywin32==306
 pywinpty==2.0.13
 PyYAML==6.0.1
 pyzmq==26.2.0
@@ -256,13 +257,13 @@ tenacity==8.4.1
 tensorboard==2.19.0
 tensorboard-data-server==0.7.2
 tensorflow==2.18.0
-
+tensorflow-intel==2.18.0
 termcolor==2.5.0
 terminado==0.18.1
 threadpoolctl==3.5.0
 tiktoken==0.9.0
 tinycss2==1.3.0
-tk==0.1.0
+# 移除 tk (Python内置)
 tokenizers==0.21.1
 toolz==0.12.1
 tornado==6.4.1
