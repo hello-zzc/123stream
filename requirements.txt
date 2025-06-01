@@ -46,7 +46,7 @@ datasets==3.5.0
 DBUtils==3.1.0
 debugpy==1.8.1
 decorator==5.1.1
-deepmerge==1.1.1
+deepmerge==2.1.0
 defusedxml==0.7.1
 Deprecated==1.2.18
 dill==0.3.4
